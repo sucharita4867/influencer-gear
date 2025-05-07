@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>influencer-gear</title>
       <link rel="stylesheet" href="style/style.css">
+      <!-- font Poppins -->
+      <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
+      <!-- font Inter -->
+      <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+      </style>
+      <!-- daysiui CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <style>
+            .font-poppins {
+                  font-family: "Poppins", sans-serif;
+            }
+
+            .font-Inter {
+                  font-family: "Inter", sans-serif;
+            }
+      </style>
 </head>
+
 <body>
       <header>
-            <nav>
-                  <div class="nav-title display-flex">
-                        <div class="nav-subtile-1">Influencer products</div>
-                        <div class="nav-subtitle-2">
-                              <a class="home" href="">Home</a>
-                              <a class="home" href="">Sign up</a>
-                              <a class="home" href="">Log In</a>
-                              <a class="home" href="">Products</a>
+            <!-- nav section -->
+            <section class="container mx-auto border border-black mt-10">
+                  <div class="navbar bg-base-100 font-poppins">
+                        <div class="flex-1">
+                              <a class="text-xl font-bold">Influencer products</a>
                         </div>
-                            
+                        <ul class="gap-8 text-[#3A3A3A] text-xl">
+                              <li><a>Home</a></li>
+                              <li><a>Products</a></li>
+                              <li><a>Sign up</a></li>
+                              <li><a>Log In</a></li>
+                        </ul>
+                        <div class="gap-8 text-[#3A3A3A] text-xl">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="size-6 ml-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                              </svg>
+                        </div>
                   </div>
-            </nav>
-
+            </section>
       </header>
       <main>
 
@@ -29,4 +65,5 @@
 
       </footer>
 </body>
+
 </html>
